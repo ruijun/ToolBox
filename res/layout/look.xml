@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/convert_title_layout"
+        layout="@layout/top_title" />
+
+    <ListView
+        android:id="@+id/savingList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/convert_title_layout"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/listview_selector" />
+
+    <TextView
+        android:id="@+id/no_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="没有收藏的内容"
+        android:textColor="@color/color_black"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/query_title_layout"
+        layout="@layout/top_title" />
+    <!-- 搜索类别 -->
+
+
+    <LinearLayout 
+        android:id="@+id/layout_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_layout_bg"
+        android:layout_below="@id/query_title_layout">
+        
+   
+    <RelativeLayout
+        android:id="@+id/query_search"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="10dip"
+		android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip"
+		android:layout_marginRight="10dip"
+        android:background="@drawable/bg_search"
+        android:gravity="center_vertical" 
+        >
+
+        <!-- 搜索 -->
+
+        <ImageButton
+            android:id="@+id/query_search_btn"
+            android:layout_width="28dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@dimen/btn_back_margin_left"
+            android:background="@drawable/drawable_btn_search" />
+
+        <EditText
+            android:id="@+id/query_search_content"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_toLeftOf="@id/query_search_btn"
+            android:background="@null"
+            android:inputType="number" 
+            android:textSize="14sp"
+            >
+        </EditText>
+    </RelativeLayout>
+     </LinearLayout>
+    <!--
+  <LinearLayout 
+   android:id="@+id/query_search"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content" 
+   android:orientation="horizontal"
+   android:layout_marginTop="10dp" 
+   android:layout_below="@id/query_title_layout" 
+   >  
+   <LinearLayout
+        android:focusable="true" 
+        android:focusableInTouchMode="true"
+        android:layout_width="0px" 
+        android:layout_height="0px"
+        />
+  <EditText
+		android:id="@+id/query_search_content"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_weight="1"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp" 
+		android:paddingLeft="5dip"
+		android:inputType="number"
+        style="@style/blue_edit"
+        />					
+	<ImageView 
+		android:id="@+id/query_search_btn"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="3dp"
+		android:layout_marginRight="10dp" 
+		android:maxWidth="40dp" 
+		android:maxHeight="40dp" 
+		android:src="@drawable/search_btn_selected" 
+		android:layout_centerInParent="true"
+		/>
+  </LinearLayout>
+    -->
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/query_result_theme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:layout_below="@id/layout_search"
+        android:layout_margin="10dp"
+        android:textSize="16sp" 
+        />
+
+</RelativeLayout>

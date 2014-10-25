@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_music_select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:background="@drawable/bg_menu"
+        android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" >
+
+                <LinearLayout
+                    android:id="@+id/layout_menu_select"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/menu_selector"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingRight="6dip" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/select_all" />
+
+                    <TextView
+                        android:id="@+id/menu_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="全选"
+                        android:textColor="@color/color_black"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dip" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_divide" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_menu_unselect"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingRight="6dip" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/unselect_all" />
+
+                    <TextView
+                        android:id="@+id/menu_backup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="全不选"
+                        android:textColor="@color/color_black"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="10dip" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_divide" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_menu_toggle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/menu_selector"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingRight="6dip" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/toggle_all" />
+
+                    <TextView
+                        android:id="@+id/menu_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="反选"
+                        android:textColor="@color/color_black"
+                        android:textSize="18dip" />
+                </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

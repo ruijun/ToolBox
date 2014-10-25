@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/row"        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        
+        >        
+        <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                >       
+                <ImageView 
+            		android:id="@+id/tag"
+                	android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp"
+                    />               
+                <LinearLayout 
+                		android:layout_width="fill_parent" 
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:orientation="vertical"
+                        android:layout_marginTop="7dip"
+                        android:layout_weight="1.0"
+                        >                      
+                        <TextView 
+                    		android:id="@+id/multiple_name"
+                            android:layout_width="fill_parent" 
+                            android:layout_height="wrap_content"
+                        	android:gravity="center_vertical"
+                            android:textSize="16dip"
+                            android:textColor="@color/traffic_txt"
+                            android:layout_marginLeft="5dip"
+                            android:singleLine="true"
+                            android:ellipsize="middle"
+                            />                                                                          
+                        <TextView 
+                    		android:id="@+id/multiple_path" 
+                        	android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" 
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center_vertical"
+                            android:ellipsize="middle"
+                            android:singleLine="true"
+                            android:textColor="@color/color_content"
+                            android:textSize="12dip"
+                            />                
+                </LinearLayout>
+                
+                <!-- 
+                	这三个很重要
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                -->
+                <CheckBox  
+                    android:id="@+id/multiple_checkbox"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:clickable="false"
+                    android:checked="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="3dip"
+                    android:button="@null"
+                    android:background="@drawable/checkbox_selector"
+                    
+                    /> 
+                   <!-- <ImageView  
+                    android:id="@+id/contact_checkbox"
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:focusable="false"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/contact_uncheck"
+                    />    -->    
+       </LinearLayout>  
+       
+        <ImageView
+	        android:id="@+id/split_line"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:background="@drawable/split_line" >
+	       </ImageView>
+</LinearLayout>

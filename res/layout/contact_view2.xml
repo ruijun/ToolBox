@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/query_title_layout"
+        layout="@layout/top_title" />
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/query_title_layout"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <AutoCompleteTextView
+            android:id="@+id/edit"
+            style="@style/blue_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:hint="@string/contact_phone"
+            android:padding="5dp"
+            android:textColor="@color/traffic_txt"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:stretchColumns="2" >
+
+            <TableRow android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_add"
+                    android:layout_weight="1"
+                    android:text="确定"
+                    android:textSize="18dip" 
+                    android:background="@drawable/btn_pic"
+	        		android:layout_margin="3dip"/>
+
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_weight="1"
+                    android:text="返回"
+                    android:textSize="18dip" 
+                    android:background="@drawable/btn_pic"
+	       		    android:layout_margin="3dip"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="对不起,未能查找到手机号!"
+        android:textColor="#000000"
+        android:textSize="20dip"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/top"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:nextFocusUp="@+id/edit" 
+        android:listSelector="@drawable/listview_selector"
+        android:drawSelectorOnTop="false"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="label_name_color">#ff2e3d47</color>
+    <color name="divder_color">#000000</color>
+    <color name="traffic_bg">#ffecf0f1</color>
+    <color name="traffic_txt">#ff414141</color>
+    <color name="traffic_data">#ff666666</color>
+    <color name="color_black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_content">#b9b9b9</color> 
+    <drawable name="list_select">#E5E5E5</drawable>
+    <drawable name="list_not_select">#00000000</drawable>
+    
+    <drawable name="menu_select">#00ff00</drawable>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <ListView
+	android:id="@+id/info_pop_list"
+   	android:layout_width="wrap_content" 
+   	android:layout_height="wrap_content"
+	android:dividerHeight="1dp" 
+	android:cacheColorHint="#ffffff"
+	android:divider="#B9D3EE"
+   	/>
+</LinearLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="tool_helper">工具小助手</string>
+    <string name="tool_guide">软件指南</string>
+    <string name="device_Info">手机信息</string>
+    <string name="query_tool">查询工具</string>
+    <string name="wifi_info">WIFI信息</string>
+    <string name="ip_hint">请输入IP地址</string>
+    <string name="post_code_hint">请输入区号</string>
+    <string name="phone_hint">请输入手机号码</string>
+    <string name="id_hint">请输入身份证号</string>
+    <string name="credit_card_hint">请输入银行卡号</string>
+    <string name="alexa_hint">请输入网址</string>
+    <string name="url_hint">请输入要转换的网址</string>
+    <string name="rmb_hint">请输入要换算的人民币</string>
+    <string name="sex">你的性别:</string>
+    <string name="heigh">你的身高(单位:cm):</string>
+    <string name="count">查看计算的结果</string>
+    <string name="ring_and_vibrate">震动或铃声</string>
+    <string name="ring">铃声</string>
+    <string name="vibrate">震动</string>
+    <string name="silent">静音</string>
+    <string name="help">请设置好切换的时间 :</string>
+     
+    <string name="app_name">Android工具助手</string>
+    <string name="splash">欢迎使用Android工具助手</string>
+    <string name="main_home">首页</string>
+    <string name="main_news">信息</string>
+    <string name="main_my_info">我的资料</string>
+    <string name="menu_search">搜索</string>
+    <string name="query_id">身份证号</string>
+    <string name="query_ip">IP地址</string>
+    <string name="query_phone">手机号码</string>
+    <string name="query_postcode">区号查询</string>
+    <string name="query_bank">银行卡号</string>
+    <string name="query_alexa">Alexa查询</string>
+    <string name="convert_tool">转换工具</string>
+    <string name="timing_tool">定时工具</string>
+    <string name="convert_ascii">ASCII转换</string>
+    <string name="convert_rgb">RGB转换</string>
+    <string name="convert_url">网址转换</string>
+    <string name="convert_rmb">人民币转换</string>
+    <string name="convert_bmi">BMI转换</string>
+    <string name="timing_message">定时短信</string>
+    <string name="timing_call">定时拨号</string>
+    <string name="timing_profile">定时切换情景模式</string>    
+    <string name="set_ring">铃声设置</string>
+    <string name="transpond_call">未接电话的转发</string>
+    <string name="cancle">取消</string>
+    <string name="telphone_number">输入或添加要发送的号码</string>
+    <string name="message">输入要发送的信息</string>
+    <string name="chose_num">添加号码</string>
+    <string name="set_time">设置时间</string>
+    <string name="save_time">保存设置</string>
+    <string name="cancle_time">取消设置</string>
+    
+    <string name="about_author">关于作者</string>
+    <string name="about_app">关于软件</string>
+    <string name="about_guide">软件指南</string>
+    <string name="about_feedback">意见反馈</string>
+    
+    <string name="battery">
+			\t1.电池出厂前,厂家都进行了激活处理,并进行了预充电,因此电池均有余电,有朋友说电池按照调整期时间充电,待机仍严重不足,假设电池确为正品电池的话,这种情况下应延长调整期再进行3~5次完全充放 电."\n"
+			\t2.如果新买的手机电池是锂离子,那么前3~5次充电一般称为调整期,应充14小时以上,以保证充分激活锂离子的活性.锂离子电池没有记忆效应,但有很强的隋性,应给予充分激活后,才能保证以后的使用能达到最佳效能."\n"
+			\t3.有些自动化的智能型快速充电器当指示信号灯转变时,只表示充满了90％.充电器会自动改变用慢速充电将电池充满.最好将电池充满后使用,否则会缩短使用时间."\n"
+			\t4.充电前,锂电池不需要专门放电,放电不当反而会损坏电池.充电时尽量以慢充充电,减少快充方式；时间不要超过24小时.电池经过三至五次完全充放电循环后其内部的化学物质才会被全部“激活”达到最佳使用效果."\n"
+			\t5.请使用原厂或声誉较好的品牌的充电器,锂电池要用锂电池专用充电器,并遵照指示说明,否则会损坏电池,甚至发生危险."\n"
+			\t6.有很多用户常常在充电时还把手机开着,其实这样会很容易伤害手机寿命的,因为在充电的过程中,手机的电路板会发热,此时如果有外来电话时,可能会产生瞬间回流电流,对手机内部的零件造成损坏."\n"
+			\t7.电池的寿命决定于反复充放电次数,所以应尽量避免电池有余电时充电,这样会缩短电池的寿命.手机关机时间超过7天时,应先将手机电池完全放电,充足电后再使用."\n"
+			\t8.手机电池都存在自放电,不用时镍氢电池每天会按剩余容量的1％左右放电,锂电池每天会按0．2％~0．3％放电.在给电池充电时,尽量使用专用插座,不要将充电器与电视机等家电共用插座."\n"
+			\t9.不要将电池暴露在高温或严寒下,像三伏天时,不应把手机放在车里,经受烈日的曝晒；或拿到空调房中,放在冷气直吹的地方.当充电时,电池有一点热是正常的,但不能让它禁受高温的“煎熬”.为了避免这种情况的发生,最好是在室温下进行充电,并且不要在手机上覆盖任何东西."\n"
+			\t10.锂离子电池必须选用专用充电器,否则可能会达不到饱和状态,影响其性能发挥.充电完毕后,应避免放置在充电器上超过12小时以上,长期不用时应使电池和手机分离."\n"
+   </string>
+  <string name="about_ascii_text">
+		\tASCII（American Standard Code for Information Interchange，美国信息互换标准代码）
+		是基于拉丁字母的一套电脑编码系统。它主要用于显示现代英语和其他西欧语言。
+		它是现今最通用的单字节编码系统，并等同于国际标准ISO/IEC646。\n
+		
+		\tASCII 码使用指定的7位或8位二进制数组合来表示128或256种可能的字符。
+		标准ASCII码也叫基础ASCII码，使用7 位二进制数来表示所有的大写和小写字母，
+		数字0到9、标点符号， 以及在美式英语中使用的特殊控制字符。其中\n
+		
+		\t0～31及127(共33个)是控制字符或通信专用字符（其余为可显示字符），
+		如控制符：LF（换行）、CR（回车）、FF（换页）、DEL（删除）、BS（退格)、BEL（振铃）等；通
+		信专用字符：SOH（文头）、EOT（文尾）、ACK（确认）等；
+		ASCII值为8、9、10 和13 分别转换为退格、制表、换行和回车字符。
+		它们并没有特定的图形显示，但会依不同的应用程序，而对文本显示有不同的影响。\n
+		\t32～126(共95个)是字符(32sp是空格），\n
+		\t48～57为0到9十个阿拉伯数字 \n
+		\t65～90为26个大写英文字母，\n
+		\t97～122号为26个小写英文字母，其余为一些标点符号、运算符号等。\n 
+  </string>
+  <string name="about_wifi"> 
+		SSID:"\n"
+		\tSSID(Service Set Identifier),许多人认为可以将SSID写成ESSID,其实不然,SSID是个笼统的概念,
+		包含了ESSID和BSSID,用来区分不同的网络,最多可以有32个字符,无线网卡设置了不同的SSID就可以进入不同网络,SSID通常由AP广播出来,
+		通过XP自带的扫描功能可以查看当前区域内的SSID.出于安全考虑可以不广播SSID,此时用户就要手工设置SSID才能进入相应的网络.
+		简单说,SSID就是一个局域网的名称,只有设置为名称相同SSID的值的电脑才能互相通信."\n"
+		BSS:"\n"
+		\t一种特殊的Ad-hoc LAN的应用,称为Basic Service Set(BSS),一群计算机设定相同的BSS名称,即可自成一个group,而此BSS名称,即所谓BSSID.\n
+		BSSID与SSID的区别:"\n"
+		\tSSID(Service Set Identifier)也可以写为ESSID,用来区分不同的网络,最多可以有32个字符,无线  工作原理图
+		网卡设置了不同的SSID就可以进入不同网络,SSID通常由AP广播出来,通过XP自带的扫描功能可以相看当前区域内的SSID.
+		出于安全考虑可以不广播SSID,此时用户就要手工设置SSID才能进入相应的网络.简单说,SSID就是一个局域网的名称,
+		只有设置为名称相同SSID的值的电脑才能互相通信. \n
+		\tBSSID是指站点的 MAC 地址(STA)在一个接入点(AP)在一个基础架构模式 BSS 是由 IEEE802.11-1999 无线局域网规范定义的.
+		这个区域唯一地定义了每个 BSS.在一个 IBSS中,BSSID是一个本地管理的 IEEE MAC地址,从一个 46 位的任意编码中产生.地址的个体/组位被设置为 0 。
+		通用/本地地址位被设置为 1。\n
+	</string>
+<string name="sim_noun">
+IMSI\n:
+\t\t国际移动用户识别码（IMSI：International Mobile SubscriberIdentification Number）是区别移动用户的标志,储存在SIM卡中,可用于区别移动用户的有效信息.其总长度不超过15位,同样使用0～9的数字.其中MCC是移动用户所属国家代号,占3位数字,中国的MCC规定为460；MNC是移动网号码,最多由两位数字组成,用于识别移动用户所归属的移动通信网；MSIN是移动用户识别码,用以识别某一移动通信网中的移动用户.
+   
+</string>
+  <string name="sim_info">SIM卡信息</string>
+  <string name="imsi">IMSI码</string>
+  <string name="imei">IMEI码</string>
+  <string name="iso">ISO国家码</string>
+  <string name="sim_state">SIM的状态</string>
+  <string name="operator">服务商名称</string>
+  <string name="mobile_info">手机相关信息</string>
+  <string name="mobile_type">手机类型</string>
+  <string name="device_soft">手机软件版本号</string>
+  <string name="device_id">手机设备的ID</string>
+  <string name="copyright">Copyright © 2012-2013 liangruijun版权所有</string>
+  <string name="about_software">
+    \t小小工具箱是一个综合类的工具软件,界面流畅,动感,美观.每个模块都有自己独特的界面布局.\n
+    \t主要实现的功能有:\n
+                 \t1.查询手机系统,电池等硬件,WIFI信息,并对相应的信息具有简介；\n\n
+                 \t2.一些常用的查询和转换工具,并对查询到的结果实现保存到SD卡的功能；\n\n
+                 \t3.对来电的转发和对来电的拦截；\n\n
+                 \t4.常用的定时工具,例如定时打电话,定时短信和定时切换情景模式.
+  </string>
+  <string name="module_function">
+    \t该软件一共有六个模块:\n
+    1.手机信息\n
+		\t该模块里面实现了查看运营商信息,硬件信息,系统信息,电池信息.\n\n
+	2.WIFI信息\n
+		\t手机只有连接上WIFI,才能获取到WIFI的信息,要不会在该模块显示没有连接到WIFI，
+    	       获取不了信息,连接上WIFI，可以获取到WIFI的BSSID，SSID,IP地址等信息.
+   		      并对相关的名词进行解释\n\n
+	3.查询工具\n
+		\t该模块实现了六个查询功能:ID查询,IP查询,手机号码查询,区号查询,银行卡号查询,Alexa查询.\n\n
+	4.转换工具\n
+		\t该模块实现了五个功能:字符转换成ASCII码,颜色转换成数值,长网址转换成缩短的网址,
+   		      人民币转换成美元.BMI标准体重的转换.\n\n
+	5.铃声设置\n
+		\t可以从SD卡中导入音乐文件,可以讲这些音乐文件设置为电话铃声,提示铃声,闹钟铃声,还可以删除设置.\n\n
+	6.定时工具\n
+		\t该模块实现了三个定时功能:定时给特定的号码发短信,定时打电话,定时切换情景模式.
+  </string>
+  <string name="notice">
+		1.使用WIFI信息查看模块时，一定要确保WIFI已经连接好.否则会显示没有获取任何WIFI信息；\n\n
+		2.使用查询模块的时候，因为需要联网查询，所以查询之前需要连接到WIFI网络或者3G网络；\n\n
+		3.查询的时候需要输入正确的查询信息，否则无法获取到相关的查询结果；\n\n
+		4.使用铃声设置模块的时候，需要手机装上SD卡.因为是获取SD卡上的音乐文件进行铃声设置。\n
+  </string>
+  <string name="contact_phone">联系人号码</string>
+  <string name="str_button1">取得</string>
+  <string name="input">你輸入的電話是:</string> 
+  <string name="str_CALL_STATE_IDLE">電話處於待機狀態</string> 
+  <string name="str_CALL_STATE_OFFHOOK">電話通話中...</string> 
+  <string name="str_CALL_STATE_RINGING">有電話來電：</string>
+  <string name="str_msg">靜音模式</string> 
+  
+
+    <string name="up_one_level">...</string>
+    <string name="none">上级目录</string>    
+    <string name="confirm">确认</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+    <string name="about_app_name">铃声管理软件\n</string>
+    <string name="about_app_moto">Make It Fun！\n</string>
+    <string name="about_app_ver">Version： 1.0.0\n</string>
+    <string name="about_app_homepage">WebSite：http://www.mifapps.com\n</string>
+    <string name="about_app_mail">Mail：tmddnr@gmail.com\n ffts133@gmail.com</string>
+    <string name="about_android">ANDROID</string>
+    
+    <string name="tips">提示：长按进行设置</string>
+	<string name="setRingtone">设置为电话铃声</string>
+	<string name="setNotification">设置为提示铃声</string>
+	<string name="setAlarm">设置为闹钟铃声</string>
+	<string name="delete">从列表中移除</string>
+	<string name="neverMind">取消</string>
+	<string name="setRingtoneSucceed">电话铃声已设置</string>
+	<string name="setNotificationSucceed">提示音已设置</string>
+	<string name="setAlarmSucceed">闹钟铃声已设置</string>
+	<string name="declaration">声明</string>
+	
+	<string name="about_id">
+		\t\t居民身份证号码,根据〖中华人民共和国国家标准 GB11643-1999〗中有关公民身份号码的规定,公民身份号码是特征组合码,
+		由十七位数字本体码和一位数字校验码组成.排列顺序从左至右依次为:六位数字地址码,八位数字出生日期码,
+		三位数字顺序码和一位数字校验码.居民身份证是国家法定的证明公民个人身份的有效证件.\n
+	</string>
+	<string name="about_ip">
+		\tIP是英文Internet Protocol（网络之间互连的协议）的缩写，中文简称为“网协”，也就是为计算机网络相互连接进行通信而设计的协议。
+		在因特网中，它是能使连接到网上的所有计算机网络实现相互通信的一套规则，规定了计算机在因特网上进行通信时应当遵守的规则。任何厂家生产的计算机系统，
+		只要遵守 IP协议就可以与因特网互连互通。IP地址具有唯一性，根据用户性质的不同，可以分为A,B,C,D,E5类。另外，IP还有进入防护，知识产权，指针寄存器等含义。\n		
+	</string>
+	<string name="about_form">
+		\tIPV4由32位二进制数组成，为便于使用，常以XXX.XXX.XXX.XXX形式表现，每组XXX代表小于或等于255的10进制数.
+		例如一个IP地址是208.80.152.2.IPv4可分为A,B,C,D,E五大类，其中E类属于特殊保留地址.
+		在互联网中，IP地址是唯一的.目前IP技术可能使用的IP地址最多可有约42亿个.骤看可能觉得很难会用尽，
+		但由于早期编码和分配上的问题，使很多区域的编码实际上被空出或不能使用.
+		加上互联网的普及，使每个家庭都至少有一部电脑，连同公司的电脑，以及连接网络的各种设备都消耗了大量IPv4地址资源.
+		随着互联网的快速成长，IPv4的42亿个地址的分配最终于2011年2月3日用尽.相应的科研组织已研究了128位的IPv6，其IP地址数量最高可达 3.402823669 × 1038 个，
+		届时每个人家居中的每件电器，每件物件，甚至地球上每一粒沙子都可以拥有自己的IP地址.
+	</string>
+	<string name="about_phone">
+		\t\t目前，我国使用的手机号码为11位，其中各段有不同的编码方向：前3位———网络识别号；第4-7位———地区编码；第8-11位———用户号码。
+		经过划分，目前以“13”打头的号码段已全部发放完毕，联通占3个子号段，由130至132号段，133号段为电信手机号段；
+		而中国移动则占有其余6个子号段，即由134至139号段。\n
+		电信\n
+		（中国电信+中国卫通）手机号码开头数字 133、142、144、146、148、149、153、180、181、189 \n
+		联通\n
+		（中国联通+中国网通）手机号码开头数字 130、131、132、141、143、145、155、156、185、186 \n
+		移动\n
+		（中国移动+中国铁通）手机号码开头数字 134、135、136、137、138、139、140、147、150、151、152、157、158、159、182、183、187、188 \n
+	</string>
+	<string name="about_alexa">
+		\t\tAlexa是一家专门发布网站世界排名的网站。以搜索引擎起家的Alexa创建于1996年4月（美国）.
+		目的是让互联网网友在分享虚拟世界资源的同时，更多地参与互联网资源的组织。 　　
+		Alexa每天在网上搜集超过1,000GB的信息，不仅给出多达几十亿的网址链接，
+		而且Alexa web为其中的每一个网站进行了排名。可以说，Alexa是当前拥有URL数量最庞大，排名信息发布最详尽的网站。\n
+	</string>
+	<string name="about_postcode">
+		\t\t区号是世界各城市所属行政区域的常用电话区划号码，这些号码主要用于国际国内长途电话的接入。
+		比如中国大陆的国际区号为86，成都为28，而在使用国内长途电话时，区号前要加拨0。
+		值得一提的是，人们往往容易混淆概念，把打国内长途电话时 “区号前要加拨0”，误以为区号本身前面有一个0。
+		也就是说，由于0是唯一的国内长途接入码，经常和后面的区号并列使用，所以形成了习惯。
+		实际上在境外打电话回境内某城市时，当地国际长途电话接入码加在中国国家号86之后，该城市区号前没有0。
+		比如说，成都的区号应是28，而非028。\n
+	</string>
+	<string name="about_creditcard">
+		\t\t目前国内的银行卡依照数字打头的不同分别归属于不同的银行卡组织，其中以“4”字开头的银行卡属于VISA卡组织，
+		以“5”字开头的属于MASTERCARD(万事达卡)，以“9”字和“62”、“60”开头的属于中国银联，
+		而以“62”、“60”开头的银联卡是契合国际规范的银联规范卡，能够在国外运用。\n
+	</string>
+	<string name="about_setringtone">
+		1.点击menu按键导入SD卡的音乐文件\n\n
+		2.勾上音乐文件(可以多选和单选),选好之后，点击确认添加\n\n
+		3.单击添加好的音乐文件，能播放音乐，长按时候出现对话框
+		       这时，可以将该音乐文件添加为来电铃声，提示音，闹铃
+		       或者能删除已经添加的音乐文件\n
+	</string>
+</resources>

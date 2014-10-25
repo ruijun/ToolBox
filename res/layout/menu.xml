@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_menu_query"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:background="@drawable/bg_menu"
+        android:orientation="vertical" 
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" >
+
+                <LinearLayout
+                    android:id="@+id/layout_menu_delete"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginTop="5dip"
+                    android:paddingRight="10dip"                    
+                    android:layout_weight="1"
+                    android:gravity="center" 
+                    android:background="@drawable/menu_selector"
+                    android:clickable="true"
+                    android:focusable="true"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_delete" />
+
+                    <TextView
+                        android:id="@+id/menu_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="清空数据"
+                        android:textColor="@color/color_black"
+                        android:textSize="18dip"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_menu_backup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginTop="5dip"
+                    android:paddingRight="10dip"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_backup" />
+
+                    <TextView
+                        android:id="@+id/menu_backup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="备份数据"
+                        android:textColor="@color/color_black"
+                        android:textSize="18dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dip" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/menu_divide" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_width="140dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/menu_divider2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_width="140dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/menu_divider2" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" >
+
+                <LinearLayout
+                    android:id="@+id/layout_menu_store"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:paddingRight="10dip"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_store" />
+
+                    <TextView
+                        android:id="@+id/menu_store"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="添加收藏"
+                        android:textColor="@color/color_black"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_menu_check"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:paddingRight="10dip"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu_check" />
+
+                    <TextView
+                        android:id="@+id/menu_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="查看收藏"
+                        android:textColor="@color/color_black"
+                        android:textSize="18dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_centerHorizontal="true" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:src="@drawable/menu_divide" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    android:background="@drawable/content"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip" >
+
+        <ImageView
+            android:id="@+id/dialog_title_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/dialog_save" />
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/dialog_title_image"
+            android:text="Title"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="5dip"
+        android:background="#436EEE" />
+
+    <TableLayout 
+     android:id="@+id/save_result"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical" 
+     android:layout_margin="2dp"
+     
+     >
+     <TextView
+ 		 android:id="@+id/dialog_demo_loginTVUserName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="文件名:" 
+         android:textSize="18dp"
+         android:textColor="#000000"
+         />
+     <EditText
+		 android:id="@+id/file_name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:textSize="18dp" 
+         android:background="@drawable/bg_search"
+         />
+     <TextView
+ 		 android:id="@+id/title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="标题:"
+         android:textSize="18dp" 
+         android:textColor="#000000"
+         />
+     <EditText
+ 		 android:id="@+id/title_name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:textSize="18dp"
+         android:background="@drawable/bg_search"
+         />
+ </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip" >
+
+        <Button
+            android:id="@+id/dialog_button_ok"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="确定" 
+            android:background="@drawable/dialog_btn_selector"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/dialog_button_cancle"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dip"
+            android:layout_toRightOf="@id/dialog_button_ok"
+            android:text="取消" 
+            android:background="@drawable/dialog_btn_selector"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

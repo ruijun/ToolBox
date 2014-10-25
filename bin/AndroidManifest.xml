@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tool"
+      android:versionCode="1"
+      android:versionName="1.0.0"
+      >
+
+    <application android:icon="@drawable/tools" android:label="@string/app_name" android:theme="@style/test" >
+        <activity android:name=".MainActivity">  
+                  <intent-filter>
+                		<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>      
+        </activity>
+    <activity android:name=".SplashActivity" android:label="@string/app_name">   
+    		<intent-filter>
+               	<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    </activity>
+    <activity android:name=".AboutActivity"/>
+    <activity android:name=".MobileInfo"/>
+  	<activity android:name=".QueryTool"/>
+  	<activity android:name=".Convert"/>
+  	<activity android:name=".WIFIInfo"/>
+  	
+  	<activity android:name="com.tool.search.id.IDCardActivity"/>
+  	<activity android:name="com.tool.search.id.IDStoreList"/>
+  	<activity android:name="com.tool.search.ip.IpActivity"/>
+  	<activity android:name="com.tool.search.ip.IpStoreList"/>
+  	<activity android:name="com.tool.search.phone.PhoneActivity"/>
+  	<activity android:name="com.tool.search.phone.PhoneStoreList"/>
+  	<activity android:name="com.tool.search.postcode.PostCodeActivity"/>
+  	<activity android:name="com.tool.search.postcode.PostCodeStoreList"/>
+  	<activity android:name="com.tool.search.creditcard.CreditCardActivity"/>
+  	<activity android:name="com.tool.search.creditcard.CardStoreList"/>
+  	<activity android:name="com.tool.search.alexa.AlexaActivity"/>
+  	<activity android:name="com.tool.search.alexa.AlexaStoreList"/>
+  	<activity android:name="com.tool.transpond.call.Transponds"/>
+  	<activity android:name="com.tool.convert.ascii.ConvertASCII" android:windowSoftInputMode ="adjustResize"/>
+  	<activity android:name="com.tool.convert.rgb.ConvertRGB"/>
+  	<activity android:name="com.tool.convert.url.ConvertURL"/>
+	<activity android:name="com.tool.convert.rmb.ConvertRMB"/> 
+	<activity android:name="com.tool.convert.bmi.ConvertBMI"/>
+	<activity android:name="com.tool.timing.profile.Profile"/> 
+	<activity android:name="com.tool.timing.message.SMSActivity"/>
+	<activity android:name="com.tool.timing.message.TimerActivity"/>
+	<activity android:name="com.tool.timing.message.Contact_ListView"/>
+	<activity android:name="com.tool.timing.call.TimingDialActivity"/>
+	<activity android:name="com.tool.mute.call.MuteCall"/>
+	<activity android:name=".common.ToolGuide"/>
+	<activity android:name=".common.SendEmail"  
+	          android:windowSoftInputMode="stateHidden" 
+	          android:screenOrientation="portrait" 
+	          android:configChanges="keyboardHidden|orientation"
+              /> 
+	<activity android:name="com.tool.ringtone.SetRingTone"/>
+	<activity android:name="com.tool.ringtone.InputFile"/>
+	<activity android:name="com.tool.search.ip.AboutIp"/>
+	<activity android:name=".timing.call.ContactListView"
+	          android:noHistory="true"
+			  android:configChanges="orientation|keyboardHidden|navigation"/>
+  	<receiver android:name="MyBroadcastReciver" >
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+    </receiver>
+           
+     <receiver android:name=".timing.profile.AlarmBroadcastReceiver">
+            <intent-filter>
+               <action android:name="com.tool.timing.profile.RV_CHANGED" />
+               <action android:name="com.tool.timing.profile.RING_CHANGED" />
+               <action android:name="com.tool.timing.profile.VIBRATE_CHANGED" />
+               <action android:name="com.tool.timing.profile.SILENT_CHANGED" />
+            </intent-filter>
+     </receiver>
+        
+     <receiver android:name=".timing.message.TimerRecv">
+	        <intent-filter>
+	       		 <action android:name="com.lingdududu.messag.ALARM_ALERT" />
+	        </intent-filter>
+     </receiver> 
+     
+     <receiver
+            android:name=".timing.call.AlarmReceiver"
+            android:process=":remote" />
+     <service android:enabled="true" android:name="service.TimingDialService"/>
+    
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>	
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 创建桌面快捷方式的权限 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <!-- 在SDCard中创建与删除文件权限 --> 
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/> 
+    <!-- 往SDCard写入数据权限 --> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<use-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	
+</manifest>
