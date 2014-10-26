@@ -15,7 +15,7 @@ import android.widget.TextView;
 public class AboutActivity extends BaseActivity{
 	
 	private TextView mVersion;
-	private Button mUpdate;
+	private Button mUpdateBtn;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
